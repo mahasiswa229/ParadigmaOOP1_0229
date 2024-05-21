@@ -3,5 +3,5 @@
 
 class anak
 {
-    
+    public:
 }
