@@ -9,7 +9,7 @@ class pasien
     public:
     string nama;
     vector<dokter*>daftar_dokter;
-    pasien(string pNama) :(pNama)
+    pasien(string pNama) :nama(pNama)
     {
         cout << "Pasien \""<< nama << "\" ada\n";
     }
@@ -26,7 +26,7 @@ class dokter
     public:
     string nama;
     vector<pasien*>daftar_dokter;
-    dokter(string pNama) :(pNama)
+    dokter(string pNama) :nama(pNama)
     {
         cout << "Dokter \""<< nama << "\" ada\n";
     }
