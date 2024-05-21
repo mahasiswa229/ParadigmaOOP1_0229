@@ -4,6 +4,6 @@ using namespace std;
 
 class manusia
 {
-    
+    public:
 };
 
