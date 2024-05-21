@@ -20,3 +20,20 @@ class pasien
     void tambahDokter(dokter*);
     void cetakDokter();
 };
+
+class dokter
+{
+    public:
+    string nama;
+    vector<pasien*>daftar_dokter;
+    dokter(string pNama) :(pNama)
+    {
+        cout << "Dokter \""<< nama << "\" ada\n";
+    }
+    ~dokter()
+    {
+        cout << "Dokter \""<< nama << "\" tidak ada\n";
+    }
+    void tambahPasien(dokter*);
+    void cetakPasien();
+};
