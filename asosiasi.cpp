@@ -52,3 +52,8 @@ void pasien::cetakDokter()
     }
     cout << endl;
 }
+
+void dokter::tambahPasien(dokter* pDokter)
+{
+    daftar_pasien.push_back(pDokter);
+}
